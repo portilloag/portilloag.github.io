@@ -1,0 +1,118 @@
+
+
+
+*{
+    font-family: 'Alata', sans-serif !important;
+    scroll-behavior: smooth;
+    
+}
+
+
+.bg-formas-container {
+    position: relative !important;
+    background-color: #ffffff !important; 
+    overflow: hidden !important;
+    min-height: 100vh !important;
+}
+
+.formas-coloridas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    z-index: 0; 
+    overflow: hidden;
+}
+
+
+.forma-luz {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(70px);
+    opacity: 0.8;
+}
+
+
+.luz-roja {
+    top: 10%;
+    left: 10%;
+    width: 320px;
+    height: 320px;
+    background-color: #ef44447f;
+    animation: lavaRoja 14s ease-in-out infinite alternate;
+}
+
+
+.luz-verde {
+    top: 40%;
+    right: 10%;
+    width: 350px;
+    height: 350px;
+    background-color: #22c55e86;
+    animation: lavaVerde 18s ease-in-out infinite alternate;
+}
+
+
+.luz-azul {
+    bottom: 10%;
+    left: 25%;
+    width: 300px;
+    height: 300px;
+    background-color: #3b83f67c;
+    animation: lavaAzul 16s ease-in-out infinite alternate;
+}
+
+@keyframes lavaRoja {
+    0% { transform: translate(0, 0) scale(1); }
+    100% { transform: translate(140px, 160px) scale(1.2); }
+}
+
+@keyframes lavaVerde {
+    0% { transform: translate(0, 0) scale(1); }
+    100% { transform: translate(-150px, -120px) scale(1.15); }
+}
+
+@keyframes lavaAzul {
+    0% { transform: translate(0, 0) scale(1); }
+    100% { transform: translate(110px, -130px) scale(0.9); }
+}
+
+.glass-pill {
+    background: rgba(255, 255, 255, 0.45);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    color: #334155; 
+    transition: all 0.3s ease;
+}
+
+
+.glass-pill:hover {
+    background: rgba(255, 255, 255, 0.75);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+.glass-pill-active {
+    background: rgba(15, 23, 42, 0.85); 
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #ffffff;
+    box-shadow: 0 8px 20px rgba(15, 23, 42, 0.25);
+}
+.estrellita-drop{
+    color: blue !important;
+}
+
+@media (max-width: 767px) {
+    .container-pad{
+        padding: 10px !important;
+    }
+    .formas-coloridas{
+        display: none !important;
+    }
+}

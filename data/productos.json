@@ -1,0 +1,167 @@
+[
+    {
+        "id": 1,
+        "nombre": "Cámara DSLR Canon EOS 6D Mark ii",
+        "categoria": "Cine y NF",
+        "precio": 12500,
+        "descripcion": "Kit con lente 18-55mm, 2 baterías y cargador",
+        "imagen": "canon-6d-mii.webp",
+        "stock": "0",
+        "fechaIngreso": "2026-02-13",
+        "destacado": true
+    },
+  {
+        "id": 2,
+        "nombre": "Kit 2 Fresneles GODOX",
+        "categoria": "Cine y NF",
+        "precio": 9800,
+        "descripcion": "Dos fresneles RGB regulables con dos trípode araña.",
+        "imagen": "godox-fresneles.webp",
+        "stock": "1",
+        "fechaIngreso": "2023-10-15",
+        "destacado": false
+    },
+     {
+        "id": 3,
+        "nombre": "Kit de 3 microfonos dji corbatero",
+        "categoria": "Cine y NF",
+        "precio": 18000,
+        "descripcion": "Sistema de 3 microfonos inalámbricos para rodaje o entrevistas",
+        "imagen": "dji-corbatero.webp",
+        "stock": "3",
+        "fechaIngreso": "2026-04-17",
+        "destacado": true
+    },
+     {
+        "id": 4,
+        "nombre": "Estabilizador con discos",
+        "categoria": "Cine y NF",
+        "precio": 6000,
+        "descripcion": "Estabilizador de cámara hasta 4kg con pesas en formato de discos. Incluye funda y manual.",
+        "imagen": "estabilizador-discos.webp",
+        "stock": "6",
+        "fechaIngreso": "2025-01-20",
+         "destacado": false
+    },
+     {
+        "id": 5,
+        "nombre": "Tableta Gráfica WACOM",
+        "categoria": "Diseño Gráfico",
+        "precio": 4000,
+        "descripcion": "Tableta gráfica con lápiz sensible a 8192 niveles de presión. Incluye funda y manual.",
+        "imagen": "tg-wacom.webp",
+        "stock": "15",
+        "fechaIngreso": "2022-06-15",
+        "destacado": true
+    },
+     {
+        "id": 6,
+        "nombre": "Pantalla Interactiva XP-Pen Artist 16",
+        "categoria": "Diseño Gráfico",
+        "precio": 16000,
+        "descripcion": "Monitor de dibujo HD de 15.6 pulgadas para ilustración digital y retoque fotográfico directo. Incluye manual de conexión y funda. ",
+        "imagen": "interactiva-artist-16.webp",
+        "stock": "7",
+        "fechaIngreso": "2025-06-23",
+         "destacado": false
+    },
+     {
+        "id": 7,
+        "nombre": "Guía de colores Pantome Formula Guide",
+        "categoria": "Diseño Gráfico",
+        "precio": 3000,
+        "descripcion": "Muestrario de colores impresos en papel brillante y mate. Incluye caja y funda.",
+        "imagen": "pantome-guia.webp",
+        "stock": "17",
+        "fechaIngreso": "2022-03-14",
+         "destacado": false
+    },
+     {
+        "id": 8,
+        "nombre": "Cortadora de papel rotativa A3",
+        "categoria": "Diseño Gráfico",
+        "precio": 2000,
+        "descripcion": "Guillotina de precisión para maquetación, armado de fanzines y corte de láminas de entrega. Incluye caja.",
+        "imagen": "guillotina-a3.webp",
+        "stock": "5",
+        "fechaIngreso": "2025-06-15",
+         "destacado": false
+    },
+     {
+        "id": 9,
+        "nombre": "Laptop Lenovo ThinkPad i7 16GB RAM",
+        "categoria": "Programación",
+        "precio": 18000,
+        "descripcion": "Computadora portátil con softwares de la carrera previamente instalados. ",
+        "imagen": "lenovo-thinkpad-16g.webp",
+        "stock": "6",
+        "fechaIngreso": "2026-02-13",
+        "destacado": true
+    },
+     {
+        "id": 10,
+        "nombre": "Monitor secundario portátil 15.6 Full HD",
+        "categoria": "Programación",
+        "precio": 6000,
+        "descripcion": "Pantalla liviana conectable por USB-C para programar a doble monitor. Incluye cable de conexión, funda y manual.",
+        "imagen": "monitor-portatil.webp",
+        "stock": "9",
+        "fechaIngreso": "2025-02-15",
+         "destacado": false
+    },
+     {
+        "id": 11,
+        "nombre": "Teclado mecánico Keychron K2",
+        "categoria": "Programación",
+        "precio": 4000,
+        "descripcion": "Teclado compacto a Bluetooth. Incluye caja.",
+        "imagen": "teclado-keychron.webp",
+        "stock": "8",
+        "fechaIngreso": "2025-03-15",
+         "destacado": false
+    },
+     {
+        "id": 12,
+        "nombre": "Casco VR Meta Quest 2",
+        "categoria": "Videojuegos",
+        "precio": 20000,
+        "descripcion": "Casco VR para testing de prototipos. Incluye caja con todos sus objetos originales.",
+        "imagen": "meta-quest-2.webp",
+        "stock": "2",
+        "fechaIngreso": "2026-02-12",
+         "destacado": false
+    },
+     {
+        "id": 13,
+        "nombre": "Playstation 5 con 2 controles",
+        "categoria": "Videojuegos",
+        "precio": 25000,
+        "descripcion": "Consola para pruebas de rendimiento, testeos de UX. Incluy e caja con todos sus accesorios originales.",
+        "imagen": "ps5-controles.webp",
+        "stock": "1",
+        "fechaIngreso": "2025-08-19",
+         "destacado": false
+    },
+     {
+        "id": 14,
+        "nombre": "Joystick bluetooth Gamepad (PC/Android)",
+        "categoria": "Videojuegos",
+        "precio": 3000,
+        "descripcion": "Control inalámbrico programable para mapeo e integración de mandos en Unity y Unreal Engine.",
+        "imagen": "joystick-bt-gamepad.webp",
+        "stock": "12",
+        "fechaIngreso": "2024-06-19",
+         "destacado": false
+    },
+     {
+        "id": 15,
+        "nombre": "Mouse ergonómico",
+        "categoria": "Programación",
+        "precio": 2000,
+        "descripcion": "Mouse ergonómico e inalámbrico Logitech. NO incluye pilas extra.",
+        "imagen": "mouse-erg-logitech.webp",
+        "stock": "9",
+        "fechaIngreso": "2025-09-05",
+        "destacado": true
+    }
+]
